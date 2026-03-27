@@ -1,31 +1,20 @@
 
 
-def sumar_2_numeros():
+def sumar_2_numeros(num1,num2):
 
-    num1 = int(input("Ingrese el primer número: "))
-    num2 = int(input("Ingrese el segundo número: "))
+    resultado = num1 + num2
+    return  resultado
 
-    suma = num1 + num2
-    
-    print(f"Resultado: {suma}")
 
-def restar_2_numeros(): 
+def restar_2_numeros(num1,num2):
+    resultado = num1 - num2
+    return resultado 
 
-    num1 = int(input("Ingrese el primer número: "))
-    num2 = int(input("Ingrese el segundo número: "))
+   
+def multiplicar_2_numeros(num1,num2):
+    resultado = num1 * num2
+    return resultado
 
-    resta = num1 - num2 
-
-    print(f"Resultado: {resta}")
-
-def multiplicar_2_numeros():
-
-    num1 = int(input("Ingrese el primer número: "))
-    num2 = int(input("Ingrese el segundo número: "))
-
-    multipicacion = num1 * num2
-
-    print(f"Resultado: {multipicacion}")
 
 def dividir_2_numeros():
 
@@ -37,7 +26,6 @@ def dividir_2_numeros():
     else:
         division = num1 // num2
         print(f"Resultado: {division}")
-
 
 
 def exponenciar_numero(num):

@@ -14,12 +14,21 @@ opcion = input("Ingrese la opción: ")
 
 
 if opcion == "1":
-    sumar_2_numeros()
+    num1 = int(input("Ingrese el primer número: "))
+    num2 = int(input("Ingrese el segundo número: "))
+    numeros_sumados = sumar_2_numeros(num1,num2)
+    print(numeros_sumados)
+
+
     
 
-
 elif opcion == "2":
-     restar_2_numeros()
+     num1 = int(input("Ingrese primer número: "))
+     num2 = int(input("Ingrese segundo número: "))
+     
+     numeros_restados = restar_2_numeros(n1,n2)
+     print(numeros_restados)
+     
 
 
 
